@@ -41,18 +41,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "live-streaming-rtmp-ingest",
     "status": "up",
-    "uptime": "23.88%",
-    "uptimeDay": "23.88%",
-    "uptimeWeek": "23.88%",
-    "uptimeMonth": "23.88%",
-    "uptimeYear": "23.88%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 139,
     "timeDay": 139,
     "timeWeek": 139,
     "timeMonth": 139,
     "timeYear": 139,
-    "dailyMinutesDown": {
-      "2026-08-10": 13
-    }
+    "dailyMinutesDown": {}
   }
 ]
