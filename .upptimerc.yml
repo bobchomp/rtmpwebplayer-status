@@ -8,7 +8,11 @@ sites:
   - name: Dashboard
     url: https://stream.rossmackenzie.co.uk/dashboard
   - name: Live Streaming (RTMP Ingest)
-    url: stream.rossmackenzie.co.uk
+    # Direct droplet IP, not the Cloudflare-proxied hostname - Cloudflare
+    # only forwards HTTP(S) (80/443), so a raw TCP check against the proxied
+    # hostname on port 1935 gets dropped at the edge and falsely reports
+    # down, even though OBS/encoders connecting to this IP work fine.
+    url: 144.126.230.185
     port: 1935
     check: tcp-ping
 
