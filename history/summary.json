@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.83%",
-    "time": 1373,
-    "timeDay": 418,
-    "timeWeek": 511,
-    "timeMonth": 604,
-    "timeYear": 1373,
+    "time": 1355,
+    "timeDay": 394,
+    "timeWeek": 535,
+    "timeMonth": 592,
+    "timeYear": 1355,
     "dailyMinutesDown": {
       "2026-08-16": 117
     }
@@ -25,16 +25,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/stream.rossmackenzie.co.uk.ico",
     "slug": "dashboard",
     "status": "up",
-    "uptime": "99.84%",
+    "uptime": "99.85%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.84%",
-    "time": 587,
-    "timeDay": 472,
-    "timeWeek": 576,
-    "timeMonth": 574,
-    "timeYear": 587,
+    "uptimeYear": "99.85%",
+    "time": 585,
+    "timeDay": 453,
+    "timeWeek": 527,
+    "timeMonth": 564,
+    "timeYear": 585,
     "dailyMinutesDown": {
       "2026-08-16": 107
     }
@@ -50,11 +50,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 109,
-    "timeDay": 83,
-    "timeWeek": 107,
-    "timeMonth": 107,
-    "timeYear": 109,
+    "time": 108,
+    "timeDay": 84,
+    "timeWeek": 99,
+    "timeMonth": 105,
+    "timeYear": 108,
     "dailyMinutesDown": {}
   }
 ]
