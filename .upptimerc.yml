@@ -16,6 +16,10 @@ sites:
     port: 1935
     check: tcp-ping
 
+# UK date format (day/month/year) everywhere on the status site.
+i18n:
+  locale: en-GB
+
 # Graph colours on the status site, matching the app's accent teal.
 graphBackgroundColor: "#BFDCD4"
 graphBorderColor: "#1F6F64"
