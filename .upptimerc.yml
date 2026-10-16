@@ -16,9 +16,13 @@ sites:
     port: 1935
     check: tcp-ping
   - name: Login
-    # The app's own login route - a 302 hand-off to Auth0 when it's working,
-    # a 500 if login is misconfigured.
+    # The app's own login route: a 302 hand-off to Auth0 when it's working, a
+    # 500 if login is misconfigured. Redirects aren't followed - Auth0's own
+    # login flow needs cookies a monitor doesn't keep, and isn't our system.
     url: https://stream.rossmackenzie.co.uk/auth/login
+    maxRedirects: 0
+    expectedStatusCodes:
+      - 302
   - name: Embed Player
     # The main channel's embed page; must contain that channel's player, so a
     # Cloudflare or error page can't count as up.
