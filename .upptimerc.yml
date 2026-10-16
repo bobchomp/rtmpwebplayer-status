@@ -15,6 +15,11 @@ sites:
     url: 144.126.230.185
     port: 1935
     check: tcp-ping
+  - name: Video Playback
+    # Whether the backend can reach the rtmp container's internal HLS server,
+    # which delivers every viewer's video - checked whether or not anything is live.
+    url: https://stream.rossmackenzie.co.uk/healthz/video
+    __dangerous__body_down_if_text_missing: "ok"
   - name: Login
     # The app's own login route: a 302 hand-off to Auth0 when it's working, a
     # 500 if login is misconfigured. Redirects aren't followed - Auth0's own
