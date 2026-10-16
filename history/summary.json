@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.88%",
-    "time": 1099,
-    "timeDay": 428,
-    "timeWeek": 440,
+    "time": 1092,
+    "timeDay": 445,
+    "timeWeek": 448,
     "timeMonth": 536,
-    "timeYear": 1099,
+    "timeYear": 1092,
     "dailyMinutesDown": {
       "2026-08-16": 117
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.89%",
-    "time": 546,
-    "timeDay": 412,
-    "timeWeek": 424,
-    "timeMonth": 488,
-    "timeYear": 546,
+    "time": 547,
+    "timeDay": 444,
+    "timeWeek": 439,
+    "timeMonth": 492,
+    "timeYear": 547,
     "dailyMinutesDown": {
       "2026-08-16": 107
     }
@@ -51,10 +51,28 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 107,
-    "timeDay": 94,
-    "timeWeek": 95,
-    "timeMonth": 105,
+    "timeDay": 101,
+    "timeWeek": 99,
+    "timeMonth": 106,
     "timeYear": 107,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "Video Playback",
+    "url": "https://stream.rossmackenzie.co.uk/healthz/video",
+    "icon": "https://icons.duckduckgo.com/ip3/stream.rossmackenzie.co.uk.ico",
+    "slug": "video-playback",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 492,
+    "timeDay": 492,
+    "timeWeek": 492,
+    "timeMonth": 492,
+    "timeYear": 492,
     "dailyMinutesDown": {}
   },
   {
@@ -68,11 +86,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 204,
-    "timeDay": 204,
-    "timeWeek": 204,
-    "timeMonth": 204,
-    "timeYear": 204,
+    "time": 197,
+    "timeDay": 197,
+    "timeWeek": 197,
+    "timeMonth": 197,
+    "timeYear": 197,
     "dailyMinutesDown": {}
   },
   {
@@ -86,11 +104,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 253,
-    "timeDay": 253,
-    "timeWeek": 253,
-    "timeMonth": 253,
-    "timeYear": 253,
+    "time": 288,
+    "timeDay": 288,
+    "timeWeek": 288,
+    "timeMonth": 288,
+    "timeYear": 288,
     "dailyMinutesDown": {}
   }
 ]
