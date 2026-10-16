@@ -16,11 +16,30 @@ sites:
     port: 1935
     check: tcp-ping
 
-# The public status page lives at stream.rossmackenzie.co.uk/status, built
-# directly into the main app (reading history/summary.json from this repo) -
-# not Upptime's own bundled GitHub Pages site, so that build/deploy is
-# skipped entirely.
-skipGeneratingWebsite: true
+# Graph colours on the status site, matching the app's accent teal.
+graphBackgroundColor: "#BFDCD4"
+graphBorderColor: "#1F6F64"
+
+# The public status page is Upptime's own site, built by the Static Site CI
+# workflow and served from GitHub Pages at status.stream.rossmackenzie.co.uk
+# (a Cloudflare DNS-only CNAME to bobchomp.github.io), so it stays up even
+# when the app's droplet doesn't. stream.rossmackenzie.co.uk/status redirects
+# here. Theme, fonts and logo live in assets/ (served at the site root).
+status-website:
+  cname: status.stream.rossmackenzie.co.uk
+  name: RTMP Web Player Status
+  logoUrl: https://status.stream.rossmackenzie.co.uk/logo.svg
+  logoHref: https://status.stream.rossmackenzie.co.uk
+  favicon: https://status.stream.rossmackenzie.co.uk/logo.png
+  faviconSvg: https://status.stream.rossmackenzie.co.uk/logo.svg
+  themeUrl: https://status.stream.rossmackenzie.co.uk/rtmpwebplayer-theme.css
+  introTitle: "**RTMP Web Player** service status"
+  introMessage: "Live status of the website, dashboard and live-stream ingest at [stream.rossmackenzie.co.uk](https://stream.rossmackenzie.co.uk), checked every 5 minutes. For the providers we run on, see [DigitalOcean status](https://status.digitalocean.com) and [Cloudflare status](https://www.cloudflarestatus.com)."
+  navbar:
+    - title: Status
+      href: /
+    - title: Back to site
+      href: https://stream.rossmackenzie.co.uk
 
 # Kept minimal - a GitHub Issue is automatically opened/closed per incident,
 # with no extra Slack/email/etc. notification integrations configured.

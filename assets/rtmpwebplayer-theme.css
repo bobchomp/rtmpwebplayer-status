@@ -1,0 +1,64 @@
+/* Status site theme matching the RTMP Web Player app (backend/src/public/style.css
+   in bobchomp/rtmpwebplayer). Fonts are served from this repo so the status
+   page doesn't depend on the app's own server being up. */
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url(fonts/poppins-400.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url(fonts/poppins-600.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  src: url(fonts/source-sans-3.woff2) format('woff2');
+}
+
+:root {
+  --body-background-color: #FAF9F6;
+  --body-text-color: #22262B;
+  --card-background-color: #FFFFFF;
+  --nav-background-color: #FFFFFF;
+  --nav-border-bottom-color: #E7E3DA;
+  --nav-current-border-bottom-color: #1F6F64;
+  --card-border-color: #E7E3DA;
+  --down-border-left-color: #C1432B;
+  --down-background-color: #FBEAE6;
+  --degraded-border-left-color: #C98A1F;
+  --up-border-left-color: #2F8F5B;
+  --tag-color: #FFFFFF;
+  --tag-up-background-color: #2F8F5B;
+  --tag-down-background-color: #C1432B;
+  --tag-degraded-background-color: #C98A1F;
+  --change-background-color: #C98A1F;
+  --error-button-border-color: #164F47;
+  --error-button-background-color: #1F6F64;
+  --error-button-color: #FFFFFF;
+  --submit-button-border-color: #164F47;
+  --submit-button-background-color: #1F6F64;
+  --submit-button-color: #FFFFFF;
+  --graph-opacity: 1;
+  --graph-filter: none;
+}
+
+body {
+  font-family: 'Source Sans 3', -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, nav {
+  font-family: 'Poppins', -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+a {
+  color: #164F47;
+}
