@@ -63,19 +63,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/stream.rossmackenzie.co.uk.ico",
     "slug": "login",
     "status": "up",
-    "uptime": "15.31%",
-    "uptimeDay": "15.31%",
-    "uptimeWeek": "15.31%",
-    "uptimeMonth": "15.31%",
-    "uptimeYear": "15.31%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 204,
     "timeDay": 204,
     "timeWeek": 204,
     "timeMonth": 204,
     "timeYear": 204,
-    "dailyMinutesDown": {
-      "2026-10-16": 2
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Embed Player",
