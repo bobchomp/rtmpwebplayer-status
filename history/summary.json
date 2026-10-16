@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.88%",
-    "time": 1119,
-    "timeDay": 466,
-    "timeWeek": 455,
-    "timeMonth": 546,
-    "timeYear": 1119,
+    "time": 1109,
+    "timeDay": 437,
+    "timeWeek": 445,
+    "timeMonth": 540,
+    "timeYear": 1109,
     "dailyMinutesDown": {
       "2026-08-16": 117
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.89%",
-    "time": 551,
-    "timeDay": 453,
-    "timeWeek": 440,
-    "timeMonth": 497,
-    "timeYear": 551,
+    "time": 549,
+    "timeDay": 441,
+    "timeWeek": 436,
+    "timeMonth": 494,
+    "timeYear": 549,
     "dailyMinutesDown": {
       "2026-08-16": 107
     }
@@ -51,10 +51,48 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 107,
-    "timeDay": 92,
-    "timeWeek": 95,
+    "timeDay": 90,
+    "timeWeek": 94,
     "timeMonth": 105,
     "timeYear": 107,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "Login",
+    "url": "https://stream.rossmackenzie.co.uk/auth/login",
+    "icon": "https://icons.duckduckgo.com/ip3/stream.rossmackenzie.co.uk.ico",
+    "slug": "login",
+    "status": "down",
+    "uptime": "66.40%",
+    "uptimeDay": "66.40%",
+    "uptimeWeek": "66.40%",
+    "uptimeMonth": "66.40%",
+    "uptimeYear": "66.40%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-10-16": 0
+    }
+  },
+  {
+    "name": "Embed Player",
+    "url": "https://stream.rossmackenzie.co.uk/embed/468127c7-2fa6-44ef-b93a-d7d3b3aea613",
+    "icon": "https://icons.duckduckgo.com/ip3/stream.rossmackenzie.co.uk.ico",
+    "slug": "embed-player",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 217,
+    "timeDay": 217,
+    "timeWeek": 217,
+    "timeMonth": 217,
+    "timeYear": 217,
     "dailyMinutesDown": {}
   }
 ]
